@@ -1,0 +1,39 @@
+<div class="form__input-group form__player">
+    <label for="#player">Участник №1</label>
+    <input type="text" class="" id="player" pattern="[A-Za-zА-Яа-яЁё]{3,}" placeholder="Имя Фамилия Отчество" required>
+</div>
+<div class="form__input-group form__type">
+    <label>Категория</label>
+    <select class="custom-select" required js__select-type name="runner" runner="">
+    	<option value="">Выбрать</option>
+        <option value="young">Малыши</option>
+        <option value="kids">Дети</option>
+        <option value="study">Студенты</option>
+        <option value="adult">Взрослые</option>
+        <option value="old">Пенсионеры</option>
+        <option value="all">Fun Run</option>
+    </select>
+</div>
+<div class="form__input-group form__distance">
+    <label required>Дистанция</label>
+    <select class="custom-select" required js__select-distance name="categories" categories="">
+        <option class="" value="">Выбрать</option>
+        <option class="young" value="1young" summ="0">2 км бесплатно</option>
+        <option class="young" value="2young" summ="0">10 км бесплатно</option>
+        <option class="kids" value="1kids" summ="150">2 км 150 руб.</option>
+        <option class="kids" value="2kids" summ="150">10 км 150 руб.</option>
+        <option class="study" value="1study" summ="350">2 км 350 руб.</option>
+        <option class="study" value="2study" summ="350">10 км 350 руб.</option>
+        <option class="adult" value="1adult" summ="350">2 км 350 руб.</option>
+        <option class="adult" value="2adult" summ="500">10 км 500 руб.</option>
+        <option class="old" value="1old" summ="350">2 км 350 руб.</option>
+        <option class="old" value="2old" summ="350">10 км 350 руб.</option>
+        <option class="all" value="1all" summ="300">2 км 300 руб.</option>
+        <option class="all" value="2all" summ="300">10 км 300 руб.</option>
+    </select>
+</div>
+<div class="form__close">
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="far" data-icon="times-circle" class="" role="img" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm101.8-262.2L295.6 256l62.2 62.2c4.7 4.7 4.7 12.3 0 17l-22.6 22.6c-4.7 4.7-12.3 4.7-17 0L256 295.6l-62.2 62.2c-4.7 4.7-12.3 4.7-17 0l-22.6-22.6c-4.7-4.7-4.7-12.3 0-17l62.2-62.2-62.2-62.2c-4.7-4.7-4.7-12.3 0-17l22.6-22.6c4.7-4.7 12.3-4.7 17 0l62.2 62.2 62.2-62.2c4.7-4.7 12.3-4.7 17 0l22.6 22.6c4.7 4.7 4.7 12.3 0 17z"/>
+    </svg>
+</div>

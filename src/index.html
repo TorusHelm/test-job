@@ -1,0 +1,524 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Empty project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body" id="top">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+
+	<header class="header" sticky-header="true" header-scroll>
+		<div class="header__wrapp container-xl">
+			<div class="logo">
+				<a href="#top" class="logo__wrapp"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<ul class="menu">
+				<li class="menu__item"><a href="#about" class="menu__link">О забеге</a></li>
+				<li class="menu__item"><a href="#how" class="menu__link">Как это было</a></li>
+				<li class="menu__item"><a href="#schedule" class="menu__link">Программа забега</a></li>
+				<li class="menu__item"><a href="#route" class="menu__link">Маршрут</a></li>
+				<li class="menu__item"><a href="#entry" class="menu__link">Участие</a></li>
+			</ul>
+		</div>
+	</header>
+    
+    <main class="main">
+    	<section class="banner">
+            <div class="container-xl">
+                <span class="banner__heading">пробежим?</span>
+                <span class="banner__subtitle">за здоровье детей</span>
+                <div class="banner__button" js__button-scroll>
+                	<a href="#entry" role="button">пробежим!</a>
+                </div>
+            </div>
+            <div class="banner__footer">
+                <span class="banner__text container-xl">3 июня, стадион «юность»</span>
+            </div>
+            <div class="banner__boots">
+                <img src="images/boots.png" alt="boots">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__row container-xl">
+                <div class="about__banner"></div>
+                <div class="about__text">
+                    <h2 class="section-heading">О забеге</h2>
+                    <h3 class="section-subtitle">В Перми состоится 2-й благотворительный <br>забег «На одном дыхании» и мы снова <br>пробежим за здоровье детей!</h3>
+                    <span class="about__write">Это яркое масштабное общегородское мероприятие, направленное на развитие благотворительности <br>и здорового образа жизни.<br>
+                    <br>Вырученные средства пойдут на лечение и реабилитацию детей с тяжелыми заболеваниями и на помощь <br>детям-сиротам.</span>
+                    <div class="media-share">
+                        <button class="media-share__button media-share__button_flag">
+                            <div class="media-share__img">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="fas" data-icon="bookmark" class="" role="img" viewBox="0 0 384 512"><path fill="currentColor" d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"/></svg>
+                            </div>
+                        </button>
+                        <button class="media-share__button media-share__button_vk">
+                            <div class="media-share__img">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="fab" data-icon="vk" class="" role="img" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"/>
+                                </svg>
+                            </div>
+                            <div class="media-share__score">945</div>
+                        </button>
+                        <button class="media-share__button media-share__button_face">
+                            <div class="media-share__img">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" class="" role="img" viewBox="0 0 264 512">
+                                    <path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/>
+                                </svg>
+                            </div>
+                            <div class="media-share__score">511</div>
+                        </button>
+                        <button class="media-share__button media-share__button_od">
+                            <div class="media-share__img">
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-prefix="fab" data-icon="odnoklassniki" class="" role="img" viewBox="0 0 320 512">
+                                    <path fill="currentColor" d="M275.1 334c-27.4 17.4-65.1 24.3-90 26.9l20.9 20.6 76.3 76.3c27.9 28.6-17.5 73.3-45.7 45.7-19.1-19.4-47.1-47.4-76.3-76.6L84 503.4c-28.2 27.5-73.6-17.6-45.4-45.7 19.4-19.4 47.1-47.4 76.3-76.3l20.6-20.6c-24.6-2.6-62.9-9.1-90.6-26.9-32.6-21-46.9-33.3-34.3-59 7.4-14.6 27.7-26.9 54.6-5.7 0 0 36.3 28.9 94.9 28.9s94.9-28.9 94.9-28.9c26.9-21.1 47.1-8.9 54.6 5.7 12.4 25.7-1.9 38-34.5 59.1zM30.3 129.7C30.3 58 88.6 0 160 0s129.7 58 129.7 129.7c0 71.4-58.3 129.4-129.7 129.4s-129.7-58-129.7-129.4zm66 0c0 35.1 28.6 63.7 63.7 63.7s63.7-28.6 63.7-63.7c0-35.4-28.6-64-63.7-64s-63.7 28.6-63.7 64z"/>
+                                </svg>
+                            </div>
+                            <div class="media-share__score">327</div>
+                        </button>
+                        <button class="media-share__button media-share__button_mw">
+                            <div class="media-share__img media-share__img_mw">
+                            </div>
+                            <div class="media-share__score">92</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how container-xl" id="how">
+            <h2 class="section-heading">Как это было в прошлом году</h2>
+            <h3 class="section-subtitle">В 2016 году с нами пробежали 700 пермяков. Мы собрали 200 тыс. рублей.</h3>
+            <span class="how__text">
+                Эти деньги позволили оплатить поиск в международном регистре и приезд неродственного донора костного <br>мозга для Даниила Просвирнина. Половина собранных средств потрачена на двухмесячную зарплату <br>больничным няням.
+            </span>
+            <iframe class="how__video" src="https://vk.com/video_ext.php?oid=-115622351&id=456239019&hash=2ab2aab733028960" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section class="program">
+            <div class="program__wrapp container-lg">
+                <h2 class="section-heading">Как мое участие поможет детям?</h2>
+                <h3 class="section-subtitle">Деньги, которые вы пожертвуете, пойдут на лечение <br>и сопровождение детей в больницах.</h3>
+                <p class="program__text">
+                    Фонд «Берегиня» купит лекарства и оплатит дорогостоящее лечение. Благотворительная <br>организация «Солнечный круг» наймет нянь для детей-сирот.
+                </p>
+                <div class="program__item">
+                    <div class="circle">300&#8381</div>
+                    <span class="program__desc">
+                        Можно купить пластырь из специального нетканного материала, чтобы при смене катетера не поранить кожу ребенка, или оплатить три часа работы больничной няни. 
+                    </span>
+                </div>
+                <div class="program__item">
+                    <div class="circle"><img src="images/mans.png" alt="mans"></div>
+                    <span class="program__desc">
+                        Взнос трех спортсменов поможет пополнить недельный запас специального питания после химиотерапии.  
+                    </span>
+                </div>
+                <div class="program__item">
+                    <div class="circle fs-35">20 000&#8381</div>
+                    <span class="program__desc">
+                        Оплата дороги пяти подопечным <br>в реабилитационный лагерь.
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="route">
+            <div class="route__wrapp container-lg">
+                <h2 class="section-heading">Какие проекты будут профинансированы</h2>
+                <div class="route__item route__item_mr">
+                    <div class="route__picture">
+                        <img class="route__img route__img_pt" src="images/logo_bereginya.png" alt="logo_bereginya">
+                    </div>
+                    <h3 class="section-subtitle">Фонд «Берегиня» реализует проект «Неотложка»</h3>
+                    <span class="route__text">«Неотложка» помогает родителям <br>детей с тяжёлыми заболеваниями оплатить обследования, <br>HLA-типирование, дорогостоящие препараты, проезд к месту лечения, реабилитационные процедуры.</span>
+                </div>
+                <div class="route__item">
+                    <div class="route__picture">
+                        <img class="route__img" src="images/logo_SK.png" alt="logo_SK">
+                    </div>
+                    <h3 class="section-subtitle">Благотворительная <br>организация «Солнечный круг» проект «Служба Айболита»</h3>
+                    <span class="route__text">«Служба Айболита» заботится о детях <br>в больничных палатах, помогает преодолеть страх перед уколами и <br>чувство одиночества, организует досуг и классное настроение.</span>
+                </div>
+            </div>
+        </section>
+        <section class="share">
+            <h2 class="section-heading">Как принять участие</h2>
+            <div class="share__list container-lg">
+                <div class="share__item">
+                    <div class="circle">
+                    	<img src="images/pentogram1.png" alt="pentogram">
+                    </div>
+                    <span class="circle__text">Выбираем категорию <br>и регистрируемся</span>
+                </div>
+                <div class="dots">
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item"></div>
+                </div>
+                <div class="share__item">
+                    <div class="circle">
+                    	<img src="images/pentogram2.png" alt="pentogram">
+                    </div>
+                    <span class="circle__text">Оплачиваем взнос <br>на участие в забеге</span>
+                </div>
+                <div class="dots">
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item"></div>
+                </div>
+                <div class="share__item">
+                    <div class="circle">
+                    	<img src="images/pentogram3.png" alt="pentogram">
+                    </div>
+                    <span class="circle__text">Приходим 3 июня <br>получаем набор бегуна</span>
+                </div>
+                <div class="dots">
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item dots__item_mr"></div>
+                    <div class="dots__item"></div>
+                </div>
+                <div class="share__item">
+                    <div class="circle">
+                    	<img src="images/pentogram4.png" alt="pentogram">
+                    </div>
+                    <span class="circle__text">Бежим, награждаем <br>участников и считаем сбор!</span>
+                </div>
+            </div>
+            <h3 class="section-subtitle">Призовой фонд – 200 тыс.рублей</h3>
+        </section>
+        <section class="map" id="route">
+            <h2 class="section-heading">Какой маршрут забега?</h2>
+            <div class="map__pic container-lg">
+                <img class="map__img" src="images/map.png" alt="map">
+                <p class="map__text">
+                    Место старта — стадион «Юность». Маршрут проложен по улице Революции, Сибирской <br>до площади Карла Маркса и обратно. <br>
+                    <br>
+                    Спортсмены пробегут две дистанции: <br>
+                    2 км (1 круг) и 10 км (4 круга).
+                </p>
+            </div>
+        </section>
+        <section class="schedule container-xl" id="schedule">
+            <h2 class="section-heading">Расписание мероприятий</h2>
+            <div class="schedule__leftside">
+                <h3 class="section-subtitle">На стадионе «Юность»</h3>
+                <ul class="schedule__list">
+                    <li class="schedule__item">
+                        <span class="schedule__title">9:00 – 10:45</span>
+                        <span class="schedule__subtitle">Регистрация участников</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__title">11:00</span>
+                        <span class="schedule__subtitle">Старт забега на 2 км</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__title">11:40</span>
+                        <span class="schedule__subtitle">Старт забега на 10 км</span>
+                    </li>
+                    <li class="schedule__item schedule__item_nobord">
+                        <span class="schedule__title">12:00</span>
+                        <span class="schedule__subtitle">Старт забега «Fun-run»</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="schedule__rightside">
+                <h3 class="section-subtitle">В парке им. Горького</h3>
+                <ul class="schedule__list">
+                    <li class="schedule__item">
+                        <span class="schedule__title">10:00</span>
+                        <span class="schedule__subtitle">Начало праздника на главной сцене</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__title">12:30</span>
+                        <span class="schedule__subtitle">Награждение победителей забега на 2 км</span>
+                    </li>
+                    <li class="schedule__item">
+                        <span class="schedule__title">13:00</span>
+                        <span class="schedule__subtitle">Награждение победителей забега на 10 км</span>
+                    </li>
+                    <li class="schedule__item schedule__item_nobord">
+                        <span class="schedule__title">до 15:00</span>
+                        <span class="schedule__subtitle">Развлекательная программа</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="categories">
+            <h2 class="section-heading">Беговые категории участников <br>и стоимость взноса</h2>
+            <div class="categories__wrapp">
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Малыши</span></div>
+                    <div class="categories__col categories__col_center"><span class="categories__text">до 4 лет</span></div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">бесплатно</span></div>
+                </div>
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Дети</span></div>
+                    <div class="categories__col categories__col_center"><span class="categories__text">от 4 до 18 лет</span></div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">150 руб.</span></div>
+                </div>
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Студенты</span></div>
+                    <div class="categories__col categories__col_center"><span class="categories__text">студенческий билет</span></div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">350 руб.</span></div>
+                </div>
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Взрослые</span></div>
+                    <div class="categories__col categories__col_center">
+                        <div class="categories__row categories__row_bbord"><span class="categories__text">женщины от 18 до 55 лет</span></div>
+                        <div class="categories__row categories__row_tbord"><span class="categories__text">мужчины от 18 до 60 лет</span></div>
+                    </div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">2 км – 350 руб.<br><br>10 км – 500 руб.</span></div>
+                </div>
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Пенсионеры</span></div>
+                    <div class="categories__col categories__col_center">
+                        <div class="categories__row categories__row_bbord"><span class="categories__text">женщины от 55 лет</span></div>
+                        <div class="categories__row categories__row_tbord"><span class="categories__text">мужчины от 60 лет</span></div>
+                    </div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">350 руб.</span></div>
+                </div>
+                <div class="categories__row">
+                    <div class="categories__col categories__col_first"><span class="categories__text">Fun Run</span></div>
+                    <div class="categories__col categories__col_center"><span class="categories__text">без ограничений</span></div>
+                    <div class="categories__col categories__col_last"><span class="categories__text">300 руб.</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="entry" id="entry">
+            <div class="entry__wrapp container-xl">
+                <h2 class="section-heading">Заявка на участие</h3>
+                <h3 class="section-subtitle">Заполняйте данные участников забега, оплачивайте <br>благотворительный взнос банковской картой и не забудьте получить <br>наборы бегуна перед стартом.</h2>
+                <form action="/mail.html" class="form" name="main-form" form>
+                    <div class="form__main">
+                        <div class="form__input-group form__player">
+                            <label for="#main-player">Ответственный участник</label>
+                            <input type="text" class="" id="main-player" pattern="[A-Za-zА-Яа-яЁё]{3,}" placeholder="Имя Фамилия Отчество" required>
+                        </div>
+                        <div class="form__input-group form__date">
+                            <label for="#main-date">Дата рождения</label>
+                            <input type="text" class="" id="main-date" placeholder="10/10/2000" required>
+                        </div>
+                        <div class="form__input-group form__mail">
+                            <label for="#main-mail">Адрес электронной почты</label>
+                            <input type="email" class="" id="main-mail" autocomplete="off" placeholder="username@mailserver.ru" required>
+                            <span class="form__note">Мы вышлим Вам на почту квитанцию об оплате</span>
+                        </div>
+                        <div class="form__input-group form__phone">
+                            <label for="#main-phone">Номер телефона</label>
+                            <input type="text" class="" id="main-phone" pattern="+[0-9]{5,11}" placeholder="+793162358412" required>
+                            <span class="form__note">Обещаем, что не будем рассылать рекламу</span>
+                        </div>
+                    </div>
+                    <div class="form__rope"></div>
+                    <div class="form__players">
+                        <div class="form__item">
+                            <div class="form__input-group form__player">
+                                <label for="#player1">Участник №1</label>
+                                <input type="text" class="" id="player1" pattern="[A-Za-zА-Яа-яЁё]{3,}" placeholder="Имя Фамилия Отчество" required>
+                            </div>
+                            <div class="form__input-group form__type">
+                                <label>Категория</label>
+                                <select class="custom-select" required js__select-type name="runner" runner="1">
+                                	<option value="">Выбрать</option>
+                                    <option value="young">Малыши</option>
+                                    <option value="kids">Дети</option>
+                                    <option value="study">Студенты</option>
+                                    <option value="adult">Взрослые</option>
+                                    <option value="old">Пенсионеры</option>
+                                    <option value="all">Fun Run</option>
+                                </select>
+                            </div>
+                            <div class="form__input-group form__distance">
+                                <label required>Дистанция</label>
+                                <select class="custom-select" required js__select-distance name="categories" categories="1">
+                                    <option class="" value="">Выбрать</option>
+                                    <option class="young" value="1young">2 км бесплатно</option>
+                                    <option class="young" value="2young">10 км бесплатно</option>
+                                    <option class="kids" value="1kids" summ="150">2 км 150 руб.</option>
+                                    <option class="kids" value="2kids" summ="150">10 км 150 руб.</option>
+                                    <option class="study" value="1study" summ="350">2 км 350 руб.</option>
+                                    <option class="study" value="2study" summ="350">10 км 350 руб.</option>
+                                    <option class="adult" value="1adult" summ="350">2 км 350 руб.</option>
+                                    <option class="adult" value="2adult" summ="500">10 км 500 руб.</option>
+                                    <option class="old" value="1old" summ="350">2 км 350 руб.</option>
+                                    <option class="old" value="2old" summ="350">10 км 350 руб.</option>
+                                    <option class="all" value="1all" summ="300">2 км 300 руб.</option>
+                                    <option class="all" value="2all" summ="300">10 км 300 руб.</option>
+                                </select>
+                            </div>
+                        </div>
+<!--                         <div class="form__item">
+                            <div class="form__input-group form__player">
+                                <label for="#player2">Участник №2</label>
+                                <input type="text" class="" id="player2" pattern="[A-Za-zА-Яа-яЁё]{3}" placeholder="Имя Фамилия Отчество" required>
+                            </div>
+                            <div class="form__input-group form__type">
+                                <label>Категория</label>
+                                <select class="custom-select" required js__select-type name="runner" runner="2">
+                                    <option value="">Выбрать</option>
+                                    <option value="young">Малыши</option>
+                                    <option value="kids">Дети</option>
+                                    <option value="study">Студенты</option>
+                                    <option value="adult">Взрослые</option>
+                                    <option value="old">Пенсионеры</option>
+                                    <option value="all">Fun Run</option>
+                                </select>
+                            </div>
+                            <div class="form__input-group form__distance">
+                                <label required>Дистанция</label>
+                                <select class="custom-select" required js__select-distance name="categories" categories="2">
+                                    <option class="" value="">Выбрать</option>
+                                    <option class="young" value="1young">2 км бесплатно</option>
+                                    <option class="young" value="2young">10 км бесплатно</option>
+                                    <option class="kids" value="1kids" summ="150">2 км 150 руб.</option>
+                                    <option class="kids" value="2kids" summ="150">10 км 150 руб.</option>
+                                    <option class="study" value="1study" summ="350">2 км 350 руб.</option>
+                                    <option class="study" value="2study" summ="350">10 км 350 руб.</option>
+                                    <option class="adult" value="1adult" summ="350">2 км 350 руб.</option>
+                                    <option class="adult" value="2adult" summ="500">10 км 500 руб.</option>
+                                    <option class="old" value="1old" summ="350">2 км 350 руб.</option>
+                                    <option class="old" value="2old" summ="350">10 км 350 руб.</option>
+                                    <option class="all" value="1all" summ="300">2 км 300 руб.</option>
+                                    <option class="all" value="2all" summ="300">10 км 300 руб.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form__item">
+                            <div class="form__input-group form__player">
+                                <label for="#player3">Участник №3</label>
+                                <input type="text" class="" id="player3" pattern="[A-Za-zА-Яа-яЁё]{3}" placeholder="Имя Фамилия Отчество" required>
+                            </div>
+                            <div class="form__input-group form__type">
+                                <label>Категория</label>
+                                <select class="custom-select" required js__select-type name="runner" runner="3">
+                                    <option value="">Выбрать</option>
+                                    <option value="young">Малыши</option>
+                                    <option value="kids">Дети</option>
+                                    <option value="study">Студенты</option>
+                                    <option value="adult">Взрослые</option>
+                                    <option value="old">Пенсионеры</option>
+                                    <option value="all">Fun Run</option>
+                                </select>
+                            </div>
+                            <div class="form__input-group form__distance">
+                                <label required>Дистанция</label>
+                                <select class="custom-select" required js__select-distance name="categories" categories="3">
+                                    <option class="" value="">Выбрать</option>
+                                    <option class="young" value="1young" summ="0">2 км бесплатно</option>
+                                    <option class="young" value="2young" summ="0">10 км бесплатно</option>
+                                    <option class="kids" value="1kids" summ="150">2 км 150 руб.</option>
+                                    <option class="kids" value="2kids" summ="150">10 км 150 руб.</option>
+                                    <option class="study" value="1study" summ="350">2 км 350 руб.</option>
+                                    <option class="study" value="2study" summ="350">10 км 350 руб.</option>
+                                    <option class="adult" value="1adult" summ="350">2 км 350 руб.</option>
+                                    <option class="adult" value="2adult" summ="500">10 км 500 руб.</option>
+                                    <option class="old" value="1old" summ="350">2 км 350 руб.</option>
+                                    <option class="old" value="2old" summ="350">10 км 350 руб.</option>
+                                    <option class="all" value="1all" summ="300">2 км 300 руб.</option>
+                                    <option class="all" value="2all" summ="300">10 км 300 руб.</option>
+                                </select>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="form__add">
+                        <a href="javascript: void(0);" class="form__link" more-players>Добавить участника</a>
+                    </div>
+                    <div class="form__rope"></div>
+                    <div class="form__result">
+                        <span class="form__sum">Итоговая сумма благотворительного взноса:</span>
+                        <span class="form__sum form__rubles">0 руб.</span>
+                    </div>
+                    <div class="form__submit">
+                        <button type="submit" class="form__button">перейти к оплате</button>
+                        <span class="form__hint">Незабудьте захватить документ удостоверяющий личность.</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners__wrapp container-xl">
+                <div class="partners__side">
+                    <h3 class="section-subtitle">Организаторы</h3>
+                    <a href="#" target="_blanc" class="partners__item">
+                        <img src="images/logo_SK_sm.png" alt="partner">
+                    </a>
+                    <a href="#" target="_blanc" class="partners__item partners__item_xbord">
+                        <img src="images/logo_bereginya_sm.png" alt="partner">
+                    </a>
+                    <a href="#" target="_blanc" class="partners__item">
+                        <img src="images/Logotip_ASKiZ.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partners__side">
+                    <h3 class="section-subtitle">Партнеры</h3>
+                    <a href="#" target="_blanc" class="partners__item">
+                        <img src="images/logotip_novy_PNG.png" alt="partner">
+                    </a>
+                    <a href="#" target="_blanc" class="partners__item partners__item_xbord">
+                        <img src="images/logo_partner_01.png" alt="partner">
+                    </a>
+                    <a href="#" target="_blanc" class="partners__item">
+                        <img src="images/partner6.png" alt="partner">
+                    </a>
+                </div>
+                <div class="partners__text">Ответим на любые вопросы: <b>233-11-22, 233-02-02, 8 (982) 450-60-70 –Александра</b></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__body container-xl">
+            <div class="footer__hashtags">
+                <span class="footer__tag">#наодномдыхании</span>
+                <span class="footer__tag">#ябегунаодномдыхании</span>
+            </div>
+            <div class="footer__socials">
+                <a href="#" class="footer__link"><img class="footer__icon" src="images/inst.png" alt="inst"></a>
+                <a href="#" class="footer__link"><img class="footer__icon" src="images/vk.png" alt="vk"></a>
+                <a href="#" class="footer__link"><img class="footer__icon" src="images/face.png" alt="face"></a>
+            </div>
+        </div>
+        <address class="footer__address">
+            © 2017 Благотворительный забег «На одном дыхании»
+        </address>
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.chained.js"></script>
+    <script src="js/jquery.chained.remote.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/celendar-ru.js"></script>
+    <script src="js/main.js"></script>
+
+    
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+
+</html>

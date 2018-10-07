@@ -1,0 +1,168 @@
+.container-m {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.body {
+  background-color: #dbdde1;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif; }
+
+.mail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white; }
+  .mail .mail-header {
+    background-color: #42a3e4;
+    height: 117px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .mail .mail-header__logo {
+      background-color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 100%;
+      max-width: 110px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 110px;
+      flex: 0 0 110px; }
+    .mail .mail-header__heading {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: uppercase;
+      -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+      flex: 1 1 50%;
+      font-family: "PT Sans Narrow", sans-serif;
+      padding-left: 26px;
+      line-height: 1;
+      color: #fff;
+      padding-top: 7px; }
+    .mail .mail-header__title {
+      font-size: 49px;
+      font-weight: bold;
+      display: block;
+      letter-spacing: 0.84px;
+      line-height: 1.2; }
+    .mail .mail-header__subtitle {
+      letter-spacing: 0.23px;
+      display: block;
+      font-size: 21px; }
+  .mail .content {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px; }
+    .mail .content__heading {
+      font-family: 'arial';
+      font-size: 20px;
+      display: block;
+      margin-bottom: 13px; }
+    .mail .content__link {
+      color: #00aae7; }
+    .mail .content__text {
+      display: block; }
+      .mail .content__text_b {
+        font-weight: bold; }
+      .mail .content__text_mt {
+        margin-top: 6px; }
+    .mail .content__subtitle {
+      font-size: 18px;
+      display: block;
+      text-align: center;
+      margin-top: 22px;
+      margin-bottom: 15px; }
+    .mail .content__list {
+      padding-left: 0px;
+      line-height: 0.9;
+      margin-bottom: 25px; }
+    .mail .content__item {
+      list-style-type: none;
+      padding-left: 13px;
+      margin-bottom: 12px;
+      position: relative; }
+      .mail .content__item::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        left: 0px;
+        top: 4px;
+        border-radius: 100px;
+        background-color: black; }
+    .mail .content__implication {
+      font-size: 12px;
+      color: #666666;
+      margin-top: 30px;
+      display: block;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #cfcfcf; }
+  .mail .runners {
+    margin: -1px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    border: 1px solid #ebebeb;
+    line-height: 1;
+    background-color: #f4f4f4;
+    margin-bottom: 25px; }
+    .mail .runners__list {
+      padding-left: 10px; }
+    .mail .runners__item {
+      list-style-type: none;
+      margin-bottom: 11px; }
+    .mail .runners__text {
+      margin-bottom: 10px;
+      display: block; }
+      .mail .runners__text_b {
+        font-weight: bold; }
+  .mail .footer {
+    background-color: white; }
+    .mail .footer__body {
+      padding-top: 0px;
+      height: auto;
+      padding-bottom: 27px;
+      padding-left: 30px;
+      padding-right: 30px; }
+    .mail .footer__tag {
+      font-size: 24px;
+      padding-left: 0px;
+      letter-spacing: 1px;
+      padding-right: 7px; }
+    .mail .footer__socials {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .mail .footer__link {
+      display: block;
+      height: 30px; }
+    .mail .footer__icon {
+      padding-right: 10px;
+      height: 100%; }
+      .mail .footer__icon_pr {
+        padding-right: 0px; }
